@@ -3,7 +3,7 @@
 
 /* definizione elemento nell'html */
  
-let prezzoFinale = document.getElementById("prezzo_totale")
+let prezzoFinale = document.getElementById("prezzo_totale");
 
 /* chiedere all'utente quanti chilometri vuole percorrere */
 
