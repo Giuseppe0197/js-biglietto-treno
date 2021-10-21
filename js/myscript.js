@@ -36,9 +36,9 @@ console.log(prezzoOver);
 /* prezzo finale in base a età e chilometri */
 
 if (age <= 17) {
-    prezzoFinale.innerHTML = `Il prezzo del suo biglietto è di: ${prezzoMinorenni}€. Complimenti, hai ricevuto uno sconto del 20%!`
+    prezzoFinale.innerHTML = `Il prezzo del suo biglietto è di: ${prezzoMinorenni}€. Complimenti, ha ricevuto uno sconto del 20%!`
 } else if (age >= 65) {
-    prezzoFinale.innerHTML = `Il prezzo del suo biglietto è di: ${prezzoOver}€. Complimenti, hai ricevuto uno sconto del 40%!`
+    prezzoFinale.innerHTML = `Il prezzo del suo biglietto è di: ${prezzoOver}€. Complimenti, ha ricevuto uno sconto del 40%!`
 } else {
     prezzoFinale.innerHTML = `Il prezzo del suo biglietto è di: ${prezzoNormale}€. Purtroppo non è riuscito ad usufruire dello sconto, ci dispiace per il disagio.`
 }
